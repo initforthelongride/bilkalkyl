@@ -1,0 +1,161 @@
+﻿body {
+    font-family: Arial, Calibri, Verdana, Helvetica, sans-serif;
+    font-size: 75%;
+    margin:20px;
+    background-color: #C9C1B4;
+    color:#4A4B4D;
+}
+
+th {
+   color: blue;
+   cursor: pointer;
+}
+
+form br {
+	clear:left; /* setting clear on inputs didn't work consistently, so brs added for degrade */
+}
+  
+fieldset {
+	border: dark-gray;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#heading {
+    display: none;
+}
+
+#topImage {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 0;
+}
+
+.mainFieldSet {
+    position: absolute;    
+    top: 140px;
+}
+
+#googleSkyscraper {
+    left: 25px;
+	width: 120px;
+	height: 600px;
+}
+
+#inputForm {
+    left: 165px;
+    width: 450px;
+}
+
+#outputForm {
+    left: 660px;
+    width: 350px;
+}
+
+#infoForm {
+    position: absolute;
+    left: 20px;
+    top: 760px;
+    width: 940px;
+}
+.upperLeftLink {
+   position: relative;
+   top: 20px;
+}
+H1 {
+	position: absolute;
+	top: 0px;
+	left: 60px;
+}
+#favicon {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+
+.subForm {
+	display:inline;
+}
+
+legend {
+    font-weight:bold;
+}
+
+label {
+    text-align:right;
+	width:130px;
+	float:left;
+	padding:0.2em;
+	margin:0;
+	margin-top:0.3em; 
+}
+
+.textfield {
+	margin:3px;
+	height:13px;
+	background-color: #EEEEEE;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #888888;
+	font-size: 10px;
+	text-align:right;
+	font-family: Calibri, Verdana, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+}
+
+.wideTextfield {
+	width:200px; 
+}
+
+.narrowTextfield {
+	width:162px; 
+}
+
+/* todo: ta bort duplicerad style-info */
+.disabledTextfield {
+	width:120px; 
+	background-color: #CCCCCC;
+	color: Maroon;
+}
+
+.sum {
+    font-family: "Symbol", Calibri, Verdana;
+    font-weight: bold;
+}
+
+.skyscraperImg {
+    border-style: none;
+}
+
+H1 {
+    font-size: 20px;
+    font-style: oblique;
+}
+
+#genericSkyscraper 
+{
+    position: absolute;
+    top: 160px;
+    left: 465px;
+    display: none;
+}
+
+#googleText {
+    position: absolute;
+    left: 20px;
+    top: 100px;
+}
+
+#tradedoubler_300x250_01 {
+    position:absolute;
+    top:465px;
+    left:610px;
+}
+
+#interestingUrls {
+    display:none;
+}
+
+.sortable
+{}
